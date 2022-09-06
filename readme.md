@@ -112,4 +112,30 @@ driver.close();
 
 
 
+### Locator
+Ways to identify one or more specific elements.
+- id
+- classname
+- xpath
+- css selector
+- link text
+- tag name
+
+```java
+driver.findElement(By.className("classname"));
+driver.findElement(By.id("id"));
+driver.findElement(By.name("name"));
+driver.findElement(By.cssSelector("selector"));
+driver.findElement(By.linkText("linktext"));
+driver.findElement(By.xpath("xpath"));
+driver.findElement(By.partialLinkText("partiallinktext"));
+```
+
+### Find Multiple Elements In Website
+- Step 1: Find locator that is common in all.
+
+
+### Work
+Go to https://www.justwatch.com/ and print all country name in console.
+
 
