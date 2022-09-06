@@ -136,6 +136,6 @@ driver.findElement(By.partialLinkText("partiallinktext"));
 
 
 ### Work
-Go to https://www.justwatch.com/ and print all country name in console.
+Go to https://www.justwatch.com/ and print all country names of Africa in console.
 
 
