@@ -131,6 +131,14 @@ driver.findElement(By.xpath("xpath"));
 driver.findElement(By.partialLinkText("partiallinktext"));
 ```
 
+### How to Work With Dropdwn
+```java
+Select select = new Select(driver.findElement(By.id("dropdown")));
+select.selectByVisibleText("Option 1"); // Select by visible text
+select.selectByIndex(1); // Select by index
+select.selectByValue("1"); // Select by value
+```
+
 ### Find Multiple Elements In Website
 - Step 1: Find locator that is common in all.
 
